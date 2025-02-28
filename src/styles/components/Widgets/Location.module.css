@@ -1,0 +1,35 @@
+.locationWidget {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.title {
+  color: #0054b9;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: var(--link-hover);
+}
+
+.locationMap {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: block;
+}
+
+.schedule {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.schedule:hover {
+  color: var(--link-hover);
+}

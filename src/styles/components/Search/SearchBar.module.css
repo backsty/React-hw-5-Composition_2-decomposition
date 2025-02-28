@@ -1,0 +1,76 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 115%;
+  position: relative;
+  margin-left: -131px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 110px;
+  height: auto;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border: 2px solid #ffcc00;
+  border-right: none;
+  background-color: white;
+  padding: 0 0.5rem;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: transparent;
+}
+
+.keyboard {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  opacity: 0.6;
+}
+
+.keyboard img {
+  width: 18px;
+  height: 18px;
+}
+
+.button {
+  padding: 5px 20px 5px 15px;
+  background-color: #fc0;
+  border: none;
+  cursor: pointer;
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 100% 50%, 90% 100%, 0 100%, 0 50%, 0 0);
+  clip-path: polygon(90% 0, 100% 50%, 100% 50%, 90% 100%, 0 100%, 0 50%, 0 0);
+  font-size: 1rem;
+  height: 39px;
+}
+
+.button:hover {
+  background-color: #f2c200;
+}

@@ -1,0 +1,29 @@
+.rates {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.name {
+  color: #000000;
+}
+
+.value,
+.source {
+  color: #000000;
+}
+
+.change {
+  color: #00a300;
+}
+
+.change.negative {
+  color: #cc0000;
+}

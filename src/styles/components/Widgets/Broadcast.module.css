@@ -1,0 +1,57 @@
+.broadcastWidget {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.title {
+  color: #0054b9;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: var(--link-hover);
+}
+
+.broadcastList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.broadcast {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.playIcon {
+  color: #0054b9;
+  font-size: 0.8rem;
+}
+
+.broadcastContent {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.broadcastTitle {
+  color: var(--text-color);
+  transition: color 0.2s ease;
+  margin-right: -9px;
+}
+
+.broadcast:hover .broadcastTitle {
+  color: var(--link-hover);
+}
+
+.channel {
+  color: var(--secondary-text);
+  font-size: 0.875rem;
+}

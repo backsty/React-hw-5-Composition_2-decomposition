@@ -1,0 +1,73 @@
+.tvWidget {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #0054b9;
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: var(--link-hover);
+}
+
+.etherIcon {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.6;
+  color: #0054b9 !important;
+}
+
+.programList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.program {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.time {
+  color: var(--text-color);
+  font-size: 0.875rem;
+  /* min-width: 3rem; */
+}
+
+.programInfo {
+  display: flex;
+  gap: 1rem;
+}
+
+.programTitle {
+  color: var(--text-color);
+  transition: color 0.2s ease;
+}
+
+.program:hover .programTitle {
+  color: var(--link-hover);
+}
+
+.channel {
+  color: var(--secondary-text);
+  font-size: 0.875rem;
+}
